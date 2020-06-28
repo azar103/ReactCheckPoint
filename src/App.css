@@ -1,0 +1,71 @@
+:root {
+  --skin-primary-color: #4CB3AF;
+  --skin-secondary-color: #FFFFFF;
+}
+
+.App {
+ 
+  border-radius: 1.5px;
+  padding: 17px;
+  margin-top: 40px;
+ 
+
+}
+.container {
+  box-shadow: -7px 10px 12px -11px rgba(0,0,0,0.75);
+}
+
+.title_color_sign_in {
+  color: var(--skin-secondary-color);
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 27px;
+}
+
+.title_color_sign_up {
+  color: var(--skin-primary-color);
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.button {
+  background-color: var(--skin-primary-color);
+  color: var(--skin-secondary-color);
+  border-color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+
+
+.form-control {
+  width: 80%;
+}
+
+p {
+  font-size: 13px;
+  color: white;
+}
+
+.col-xs-6:nth-child(2) {
+  background-color: var(--skin-primary-color);
+
+  padding: 20px; 
+  height: 300px;
+  width: 50%;
+  text-align: center;
+  padding-top: 50px;
+
+}
+
+button {
+  background-color: inherit;
+  border: 1px solid white;
+  width: 200px;
+  margin: auto;
+  padding: 15px;
+  color: white;
+  border-radius: 30px;
+}
+
